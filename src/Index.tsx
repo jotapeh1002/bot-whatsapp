@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { PublicRoutes } from './routes/PublicRoutes';
 
 createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/bot-whatsapp">
     <PublicRoutes />
   </BrowserRouter>,
 );
